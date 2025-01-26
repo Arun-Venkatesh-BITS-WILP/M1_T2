@@ -48,12 +48,8 @@ def train_model():
     model.save("models/cnn_model.h5")
     print("CNN model trained and saved successfully!")
 
-
-        # Print statements for confirmation
+    # Print statements for confirmation
     print("Training complete!")
-    print(f"Model saved at: models/cnn_model.h5")
-    print(f"Train data shape: {X_train.shape}, Test data shape: {X_test.shape}")
-    print(f"Number of classes: {len(set(y_train.flatten()))}")
 
 
 if __name__ == "__main__":
